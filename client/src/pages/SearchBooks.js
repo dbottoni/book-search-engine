@@ -74,8 +74,8 @@ const SearchBooks = () => {
         variables: { input: bookToSave }
       });
 
-      if(error) {
-        throw new Error('Something went wrong!');
+      if (error) {
+        throw new Error('something went wrong!');
       }
 
       console.log(data);
