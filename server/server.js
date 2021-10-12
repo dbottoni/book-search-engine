@@ -31,7 +31,7 @@ const startServer = async () => {
 // Initialize the Apollo server
 startServer();
 
-app.use(express.urlencoded({ extended: true }));
+app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 // if we're in production, serve client/build as static assets
