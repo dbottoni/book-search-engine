@@ -12,12 +12,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "concurrently": "^5.3.0"
-  },
-  "dependencies": {
-    "if-env": "^1.0.4"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dbottoni/book-search-engine.git"
@@ -25,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/dbottoni/book-search-engine/issues"
   },
-  "homepage": "https://github.com/dbottoni/book-search-engine#readme"
+  "homepage": "https://github.com/dbottoni/book-search-engine#readme",
+  "devDependencies": {
+    "concurrently": "^6.3.0"
+  }
 }
